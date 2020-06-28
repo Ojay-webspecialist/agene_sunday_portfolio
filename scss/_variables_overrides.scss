@@ -1,0 +1,16 @@
+
+
+ $card-border-width:1px;
+ $card-border-color:rgb(210, 207, 207);
+ $primary: black;
+ $link-decoration: none;
+
+
+
+.card{
+   
+    border: $card-border-width solid $card-border-color;
+}
+
+
+

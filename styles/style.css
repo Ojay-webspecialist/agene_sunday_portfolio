@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+}
+
+.nav-link{
+    padding-left: 3em !important;
+}
+
+.bioCage{
+    align-items: center;
+    padding-left: 6em;
+
+}
+/*Media queries for  header */
+
+@media  screen and (max-width: 767px){
+   
+    .bioSection{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgBox{
+        max-width: 45%;
+        margin: 0 auto;
+    }
+
+    .mybio{
+        order: 2;
+        
+        color: white;
+        font-size:26px;
+        font-weight:700;
+        line-height: 32px;
+        font-style: normal;
+        text-align: left ;
+        
+    
+    }
+    .bioCage{
+        padding-left: 0;
+    }
+    .bioBio{
+        padding-right:1em;
+        /*padding-left: 50px;
+        margin-left: 2em;*/
+    }
+    .myImage{
+       
+        border: 1px solid black;
+        order: 1;
+        border-radius: 100%;
+        margin-bottom: -3em;
+        
+    }
+    
+
+   
+}
+
+@media screen and (min-width:769px){
+
+   
+    .bioBio{
+    color: white;
+    font-size:23px;
+    font-weight:700;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left ;
+   
+    margin-left: 2em;
+    padding-top: 6em;
+    
+    }
+
+   .bioSection{
+       height: auto;
+   }
+   
+   #navbarNav{
+        margin: 0 auto;
+   }
+   
+}
+
+@media screen and (max-width:572px) and (max-width: 842px) {
+    
+  
+}
+
+@media screen and (min-width: 992px){
+    .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    #myName{
+
+        margin-left: 100px !important;
+
+    
+    }
+}
+
+/*Projects section */
+
+@media screen and (max-width: 768px){
+    .cardodd{
+        margin-bottom: 3em;
+    }
+}
+
+
+h3 > a{
+    color: black;
+
+}
+
+h3 > a:hover{
+    color: #F82D89 !important;
+    text-decoration: none !important;
+}
+div>a:hover{
+    text-decoration: none !important;
+}
+.otherContent:hover{
+    color: #F82D89 !important;
+    text-decoration: none !important;
+}
+
+/*socialIcons at the footer*/
+
+a>i:hover{
+     color: grey;
+}
+i{
+    color: rgb(186, 177, 177);
+    
+}
+
