@@ -12,3 +12,4 @@ const socialImage = getSharingImage({
   titleExtraConfig: '_bold',
   taglineFont: 'Roboto',
 });
+
